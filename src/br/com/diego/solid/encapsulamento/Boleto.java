@@ -1,0 +1,32 @@
+/*
+ * ====================================================================
+ * Direitos de cópia pela BRASILPREV
+ * 
+ * Todos os direitos reservados.
+ * 
+ * Este sistema contém informações confidenciais e de propriedade da
+ * BRASILPREV ("Informações Confidenciais").
+ * Você não deve divulgar tais informações confidenciais e deve
+ * usá-las somente em conformidade com os termos do contrato de licença
+ * definidos pela BRASILPREV.
+ * ==================================================================== 
+ */
+package br.com.diego.solid.encapsulamento;
+
+public class Boleto implements TipoPagamento {
+    private final double valor;
+
+    public Boleto(double valor) {
+        this.valor = valor;
+    }
+
+    @Override
+    public double getValor() {
+        return valor;
+    }
+
+    @Override
+    public MeioDePagamento getMeioPagamento() {
+        return MeioDePagamento.BOLETO;
+    }
+}

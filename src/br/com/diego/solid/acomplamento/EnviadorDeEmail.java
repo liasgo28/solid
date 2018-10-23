@@ -1,0 +1,24 @@
+/*
+ * ====================================================================
+ * Direitos de cópia pela BRASILPREV
+ * 
+ * Todos os direitos reservados.
+ * 
+ * Este sistema contém informações confidenciais e de propriedade da
+ * BRASILPREV ("Informações Confidenciais").
+ * Você não deve divulgar tais informações confidenciais e deve
+ * usá-las somente em conformidade com os termos do contrato de licença
+ * definidos pela BRASILPREV.
+ * ==================================================================== 
+ */
+package br.com.diego.solid.acomplamento;
+
+public class EnviadorDeEmail implements AcaoAposGerarNota {
+
+    @Override
+    public void executa(NotaFiscal nf) {
+        System.out.println("Envia email");
+
+    }
+
+}
