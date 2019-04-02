@@ -1,17 +1,3 @@
-/*
- * ====================================================================
- * Direitos de cópia pela BRASILPREV
- * 
- * Todos os direitos reservados.
- * 
- * Este sistema contém informações confidenciais e de propriedade da
- * BRASILPREV ("Informações Confidenciais").
- * Você não deve divulgar tais informações confidenciais e deve
- * usá-las somente em conformidade com os termos do contrato de licença
- * definidos pela BRASILPREV.
- * ==================================================================== 
- */
-
 package br.com.diego.solid.comum;
 
 import br.com.diego.solid.coesao.CalculaDezOuVintePorcento;
@@ -21,7 +7,6 @@ import br.com.diego.solid.coesao.RegraDeCalculo;
 /**
  * Enum Cargo.
  * 
- * @author Diego Rodrigues do Nascimento (P51701802)
  */
 public enum Cargo {
 
@@ -38,7 +23,7 @@ public enum Cargo {
     private RegraDeCalculo regra;
 
     /**
-     * Cria uma nova instância de cargo.
+     * Cria uma nova instï¿½ncia de cargo.
      * 
      * @param regra do tipo RegraDeCalculo
      */
